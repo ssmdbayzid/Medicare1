@@ -5,6 +5,7 @@ import About from './About'
 import Service from './Service'
 import Feature from './Feature'
 import DoctorList from './DoctorList'
+import FAQ from './FAQ'
 
 
 const Home = () => {
@@ -32,6 +33,11 @@ const Home = () => {
       {/* ============= Doctors Section ===================== */}
 
       <DoctorList />
+
+      {/* ============= FAQ Section ===================== */}
+      <FAQ />
+
+
     </div>
   )
 }

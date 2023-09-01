@@ -24,6 +24,7 @@ const DoctorList = () => {
                     <div className="">
                         <img src={data.photo} alt="" className="w-full" />
                     </div>
+                    <div className="p-3">
                     <h2 className="text-[20px] md:text-[26px] leading-[30px] lg:leading-9 text-textColor font-[800] lg:font-[700] mt-2 lg:mt-3">{data.name}</h2>
                     <div className="flex justify-between items-center mt-3 lg:mt-5">
                         <p className="text-irisBlueColor bg-[#CCF0F3] px-5 py-1.5 rounded font-[700]">{data.specialization}</p>
@@ -45,6 +46,7 @@ const DoctorList = () => {
                             </Link>
 
                         </div>
+                 </div>
                 </div> 
                 )}
         </div>

@@ -10,7 +10,7 @@ const Menubar = ({navLinks, Button,  Modal, props}) => {
 <Modal
 show={props.openModal === true}
 position="left-right"
-className=" bg-slate-300/50 md:hidden w-full">
+className=" bg-slate-300/50 md:hidden w-full z-30">
     <Modal.Body>
     <div className=" p-6 w-full bg-white h-screen">
         <div className='flex justify-between'>

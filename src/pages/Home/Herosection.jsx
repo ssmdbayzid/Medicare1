@@ -61,7 +61,7 @@ const Herosection = () => {
                             <div  className="mb-5">
                                 <img src={img1} className="w-full" alt="" srcset="" />
                             </div>
-                            <div className="mt-10 ml-5 flex flex-col gap-2 md:gap-10">
+                            <div className="mt-10 ml-2 mb-8 flex flex-col gap-2 md:gap-5">
                                 <img src={img2} alt="" className="w-full mb-2" />
                                 <img src={img3} alt="" className="w-full"  />
                             </div>

@@ -51,14 +51,14 @@ const FAQ = () => {
                                 className="flex w-full justify-between items-center cursor-pointer">
                                     <p className='font-semibold'>{data.question}</p>
                                     <span 
-                                        className="p-2 border rounded-md cursor-pointer">
+                                        className={ ` ${data.isSelect && "bg-primaryColor text-white"} p-2 border rounded-md cursor-pointer`}>
                                         {
                                             !data.isSelect ? <BiPlus /> : <BiMinus />
                                         }
                                     </span>
                                 </div>
 
-                                {data.isSelect && <p className="text-textColor mt-3 text-justify"> {data.answer}</p>
+                                {data.isSelect && <p className="text-textColor mt-3 text-justify "> {data.answer}</p>
                                 }
                             </div>
                             )}

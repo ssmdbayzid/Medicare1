@@ -6,6 +6,7 @@ import Service from './Service'
 import Feature from './Feature'
 import DoctorList from './DoctorList'
 import FAQ from './FAQ'
+import Testimonial from './Testimonial'
 
 
 const Home = () => {
@@ -37,6 +38,9 @@ const Home = () => {
       {/* ============= FAQ Section ===================== */}
       <FAQ />
 
+      {/* ============= Testimonial Section ===================== */}
+
+      <Testimonial />
 
     </div>
   )
